@@ -9,6 +9,7 @@ help:
 		'  make build  - crea bin/quiz'
 
 run:
+	clear
 	go run ./quiz
 
 fmt:
