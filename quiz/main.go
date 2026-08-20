@@ -1,7 +1,8 @@
 package main
 
 import "fmt"
+import "os"
 
 func main() {
-	fmt.Println("Benvenuto nel quiz!")
+	fmt.Printf("Ciao, %s! Benvenuto nel quiz!\n", os.Args[1])
 }
