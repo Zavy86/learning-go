@@ -1,4 +1,4 @@
-.PHONY: help run fmt vet test build check
+.PHONY: help run fmt vet test build
 
 help:
 	@printf '%s\n' 'Target disponibili:' \

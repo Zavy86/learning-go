@@ -37,9 +37,21 @@ Per stampare una riga, cerca nel package `fmt` una funzione il cui nome termina 
 
 Se il comando termina senza errori e appare la frase, hai il primo eseguibile del quiz. Se compare un errore, conserva comando e output: li leggeremo insieme prima di cercare una soluzione completa.
 
+## Ciclo di lavoro automatizzato
+
+Il repository include un `Makefile` per evitare di ricordare ogni comando:
+
+| Comando | Effetto |
+| --- | --- |
+| `make run` | esegue il quiz |
+| `make fmt` | formatta il codice Go |
+| `make vet` | esegue l'analisi statica standard |
+| `make test` | esegue tutti i test |
+| `make build` | crea `bin/quiz` |
+
 ## Consulta in *Learning Go*
 
-Parole chiave: **modules**, **package main**, **main function**, **go run**, **go build**, **fmt**, **standard output**.
+Parole chiave: **modules**, **package main**, **main function**, **go run**, **go build**, **go fmt**, **go vet**, **go test**, **Makefile**, **standard output**.
 
 Fonte primaria: [tutorial ufficiale Go: Create a Go module](https://go.dev/doc/tutorial/create-module). Vedi anche il [riferimento rapido su modulo, main e comandi](../reference/0001-modulo-main-e-comandi.html).
 
