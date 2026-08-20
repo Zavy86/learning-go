@@ -1,10 +1,10 @@
-# Contesto di apprendimento Go
+# Go learning context
 
-## Glossario
+## Glossary
 
-- **Studente**: sviluppatore esperto di Node.js, TypeScript e Git che sta iniziando Go.
-- **Percorso Go**: percorso di apprendimento che combina studio teorico autonomo da *Learning Go* con pratica guidata, esercizi, feedback e mini-progetti.
-- **Tutor pratico**: il supporto conversazionale che chiarisce dubbi, propone esercizi e revisiona soluzioni, senza sostituire la lettura del libro.
-- **Traguardo iniziale**: raggiungere in 3–6 mesi una base solida di Go, la capacità di creare API e strumenti CLI e una preparazione iniziale ai colloqui.
-- **Progetto guida**: un quiz che nasce come programma CLI e diventa una piccola API HTTP, inizialmente con la libreria standard di Go.
-- **Uso del libro**: *Learning Go* è una risorsa di consultazione libera; ogni esercizio o esempio pratico segnala gli argomenti e le parole chiave da ricercarvi, senza seguire un ordine obbligato di capitoli.
+- **Student**: an experienced Node.js, TypeScript, and Git developer who is beginning Go.
+- **Go journey**: a learning path that combines independent study from *Learning Go* with guided practice, exercises, feedback, and mini-projects.
+- **Practical tutor**: the conversational support that explains doubts, proposes exercises, and reviews solutions without replacing the book.
+- **Initial goal**: build a solid Go foundation, the ability to create APIs and CLI tools, and initial interview readiness within 3–6 months.
+- **Guiding project**: a quiz that starts as a CLI program and becomes a small HTTP API, initially using Go's standard library.
+- **Use of the book**: *Learning Go* is a freely consulted resource; every practical exercise or example names topics and keywords to look up without imposing a chapter order.

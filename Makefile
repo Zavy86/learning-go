@@ -1,12 +1,12 @@
 .PHONY: help run fmt vet test build
 
 help:
-	@printf '%s\n' 'Target disponibili:' \
-		'  make run    - esegue il quiz' \
-		'  make fmt    - formatta il codice Go' \
-		"  make vet    - esegue l'analisi statica standard" \
-		'  make test   - esegue tutti i test' \
-		'  make build  - crea bin/quiz'
+	@printf '%s\n' 'Available targets:' \
+		'  make run    - runs for dev' \
+		'  make fmt    - formats source code' \
+		'  make vet    - runs static analysis' \
+		'  make test   - runs all tests' \
+		'  make build  - create executable'
 
 run:
 	clear
@@ -24,4 +24,3 @@ test:
 build:
 	mkdir -p bin
 	go build -o bin/quiz ./quiz
-

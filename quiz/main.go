@@ -4,5 +4,9 @@ import "fmt"
 import "os"
 
 func main() {
-	fmt.Printf("Ciao, %s! Benvenuto nel quiz!\n", os.Args[1])
+	playerName := "Player"
+	if len(os.Args) > 1 {
+		playerName = os.Args[1]
+	}
+	fmt.Printf("Hello, %s! Welcome to the quiz!\n", playerName)
 }
