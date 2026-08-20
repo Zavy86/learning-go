@@ -1,7 +1,7 @@
 # Preparare l'ambiente e una CLI Go
 
 Type: task
-Status: open
+Status: claimed
 
 ## Question
 
