@@ -1,0 +1,8 @@
+# Output di build Go
+bin/
+*.exe
+*.test
+*.out
+
+# File locali del sistema e dell'editor
+.DS_Store
